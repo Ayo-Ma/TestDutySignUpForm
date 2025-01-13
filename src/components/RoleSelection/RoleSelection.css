@@ -1,0 +1,72 @@
+
+.role-selection-form{
+    background-color: #fff;
+    color: #1b1b1b;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .8rem;
+    margin: 20% auto;
+
+    h2{
+        color:#363636;;
+        font-size: 1.4rem;
+        margin-bottom:  8px;
+    }
+}
+
+.role-select label{
+border: 1px solid #ccc;
+border-radius: 8px;padding: 1rem;
+margin-left: 12px;
+display: block;
+font-weight: bold;
+text-align: center;
+transition: .3s ease;
+cursor: pointer;
+}
+.role-select label:hover{
+    background-color: var(--color-primary-light);
+    color: #fff;
+}
+.role-select label.active{
+    background-color: var(--color-primary);
+    color: #fff;
+}
+.role-select {
+    display: flex;
+}
+
+.role-select input{
+   display: none;
+}
+
+.role-btn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .8rem;
+    gap: 2rem;
+}
+
+.role-btn button{
+    padding: .5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+
+    
+    
+    &:first-child{
+        background-color:var(--color-primary);
+    }
+    &:nth-child(2){
+        background-color:var(--color-primary);
+    }
+    &:hover{
+        background-color:var(--color-primary-light);
+    }
+}
