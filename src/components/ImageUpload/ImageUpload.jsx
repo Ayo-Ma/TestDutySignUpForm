@@ -13,10 +13,10 @@ const ImageUpload = ({ onPrevious, formData, setFormData }) => {
     };
   
     return (
-      <div className=''>
+      <div className='uploader'>
         <h2>Upload Image</h2>
-        <input className='upload' type="file" accept="image/*" onChange={handleImageChange} />
-        {formData.image && <img src={formData.image} alt="Preview" style={{ width: "100px", height: "100px" }} />}
+        <input type="file" accept="image/*" onChange={handleImageChange} />
+        {formData.image && <img className='upload' src={formData.image} alt="Preview" style={{ width: "100px", height: "100px" }} />}
         <button type="button" onClick={onPrevious}>Previous</button>
         <button type="button" onClick={() => alert('Form Submitted!')}>Submit</button>
       </div>

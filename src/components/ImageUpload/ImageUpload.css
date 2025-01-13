@@ -1,6 +1,22 @@
-.upload{
+.upload {
     width: 200px;
     height: 200px;
     background-color: #fff;
     border-radius: 50%;
+}
+
+.uploader {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    button {
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 8px;
+        background-color: var(--color-primary);
+        align-items: center;
+        justify-content: center;
+
+    }
 }
