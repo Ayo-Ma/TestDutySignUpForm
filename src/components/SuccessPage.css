@@ -1,0 +1,55 @@
+.success-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    min-width: 200px;
+    min-height: 100vh;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .success-message {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 20px 0px;
+    color: #1e1f1e; /* Green text for success */
+  }
+  
+  .redirect-info {
+    font-size: 1rem;
+    color: #555;
+  }
+  .success-icon{
+    color: green;
+    font-size: 4rem;
+  }
+  
+  .loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #28a745; /* Green spinner */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin-top: 20px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  @media (max-width:320px) {
+    .success-message{
+        font-style: 1rem;
+    }
+  }

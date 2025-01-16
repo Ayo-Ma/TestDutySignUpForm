@@ -56,9 +56,9 @@ const PersonalInfo = ({ onNext, formData, setFormData }) => {
 
   return (
     <div className="personalInfo">
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form"  onSubmit={handleSubmit}>
         <div className="personal_info_head">
-          <h2 className="personal_info_head_h2">Personal Information</h2>
+          <h2 className="personal_info_head_h2">Sign Up</h2>
           <p className="personal_info_head_link">
             Create an account or{" "}
             <a className="personal_info_head_link_highlight" href="#">
